@@ -18,8 +18,8 @@ NanumGothich - Japanese
 @font-face {
     font-family: 'Thasadith', Fallback, sans-serif;
     src: url(https://github.com/google/fonts/raw/main/ofl/thasadith/Thasadith-Regular.ttf) format('truetype');
-    src: url('webfont.woff2') format('woff2'); /* Super Modern Browsers */
-    src: url('webfont.woff') format('woff'); /* Pretty Modern Browsers */
+    src: url(https://github.com/vvnlee/vvnlee.github.io/raw/main/fonts/Thasadith-Regular.woff2) format('woff2'); /* Super Modern Browsers */
+    src: url(https://github.com/vvnlee/vvnlee.github.io/raw/main/fonts/Thasadith-Regular.woff) format('woff'); /* Pretty Modern Browsers */
     /* 
    src: url(https://github.com/vvnlee/vvnlee.github.io/blob/main/fonts/Thasadith-Regular.ttf) format('truetype');
    */
