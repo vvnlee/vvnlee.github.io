@@ -1,0 +1,75 @@
+/* Add these to your existing CSS */
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+/* Add responsive styles */
+@media (max-width: 768px) {
+    .menu-box {
+        width: 90%;
+        left: 5%;
+        padding: 30px 50px;
+    }
+
+    .right-links {
+        top: 20px;
+        right: 20px;
+    }
+
+    .right-links img {
+        width: 40px;
+    }
+
+    .right-links a {
+        padding: 12px 30px;
+    }
+
+    .menu-links a {
+        font-size: 14px;
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-box {
+        width: 95%;
+        left: 2.5%;
+        padding: 20px 30px;
+    }
+
+    .right-links {
+        top: 15px;
+        right: 15px;
+    }
+
+    .right-links img {
+        width: 30px;
+    }
+
+    .right-links a {
+        padding: 10px 20px;
+    }
+
+    .menu-links a {
+        font-size: 12px;
+        margin: 15px 0;
+    }
+}
