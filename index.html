@@ -1,0 +1,24 @@
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuIcon = document.querySelector('.menu-icon');
+        const closeIcon = document.querySelector('.right-links img');
+        const menuBox = document.querySelector('.menu-box');
+
+        // Initially hide menu
+        menuBox.style.display = 'none';
+
+        // Toggle menu
+        menuIcon.addEventListener('click', function() {
+            menuBox.style.display = 'block';
+            menuBox.style.animation = 'slideIn 0.3s ease forwards';
+        });
+
+        // Close menu
+        closeIcon.addEventListener('click', function() {
+            menuBox.style.animation = 'slideOut 0.3s ease forwards';
+            setTimeout(() => {
+                menuBox.style.display = 'none';
+            }, 300);
+        });
+    });
+</script>
